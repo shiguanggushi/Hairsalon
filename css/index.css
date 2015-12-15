@@ -28,7 +28,7 @@
 .in_tell{
 	float: right;
 	display: block;
-	margin-right: 0.4rem;
+	margin-right: 0.2rem;
 	font-size: 0.8rem;
 	color: #E3007F;
 	font-weight: bold;
@@ -37,7 +37,7 @@
 .in_works{
 	width: 100%;
 	height: auto;
-	margin: 0.2rem auto;
+	margin: 0.4rem auto;
 }
 /*.works_list{
 	border: 1px solid saddlebrown;
