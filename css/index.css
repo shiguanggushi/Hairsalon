@@ -65,3 +65,19 @@
 	font-family: "微软雅黑";
 	text-align: left;
 }
+.in_pro{
+	width: 100%;
+	margin: 0.8rem auto;
+}
+.in_pro .pro_dl{
+	float: left;
+	text-align: center;
+	margin-left: 0.32rem;
+}
+.in_pro .pro_dl dt img{
+	width: 2.2rem;
+	height: 2.2rem;
+}
+.in_pro .pro_dl dd{
+	margin-top: 0.2rem;
+}
