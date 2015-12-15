@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="format-detection" content="telephone=no">
+		<title>设计师</title>
+		<link rel="stylesheet" href="css/coom.css" />
+		<link rel="stylesheet" href="css/designer.css" />
+		<script type="text/javascript" src="js/jquery-1.11.3.js" ></script>
+		<script type="text/javascript" src="js/register.js" ></script>
+        <script type="text/javascript" src="layer.m/layer.m.js" ></script>
+		<script type="text/javascript" src="js/jquery-2.1.3.min.js" ></script>
+		<script>
+		 var pageIndex = 1;
+		 var pageType;
+         $(document).ready(function() {
+			$(function(){
+              $.ajax({
+			  type:"POST",
+			  data:"pageIndex="+(pageIndex),
+			  url:"manifest.json",
+			  dataType:"html",
+			  success: function(data){
+				 console.log(data);
+				 $(".de_item").append(data);
+			  }
+				});
+			});
+			var i;
+			function pullDownAction() {
+				$.ajax({
+					type: "POST",
+					url: "manifest.json",
+					data: "pageIndex=" + (++pageIndex),
+					dataType: "html",
+					success: function(msg) {
+						if (msg.length==0) {
+							alert('数据已经全部加载！');
+						} else {
+							$(".de_item").append(msg);
+						}
+						$(".loadingbox").hide();
+						i = 0;
+					},
+					error: function() {
+//						alert("提取失败！");
+                        //layer.msg('提取失败!',{icon: 2});
+//                      layer.alert('酷毙了', {icon: 1});
+                        layer.open({
+						    content: '提取失败！',
+						    style: 'background-color:#fFF; color:#09C1FF; border:none;text-align: center;',
+						    time: 2
+						});
+                        return;
+					}
+				});
+			}
+			$(document).ready(function() {
+				$(window).on("scroll", function() {
+					if (i == 1) {
+						return;
+					}
+					if (($(window).height() + $(window).scrollTop()) >= $(document).height()) {
+						i = 1;
+						$(".loadingbox").show();
+//						layer.open({
+//						    type: 2,
+//						    content: '加载测试中'
+//						});
+						setTimeout(pullDownAction, 3000);
+					}
+				});
+			});
+		 });
+		</script>
+	</head>
+	<body>
+		<header>
+		<div class="coom-head c-head">
+			<div class="coom-hleft"></div>
+			<div class="coom-hconter"><span>罗亚帝美发店</span></div>
+		    <div class="coom-hright"></div>
+		</div>
+		</header>
+		<article class="de_content de_conter">
+			<div class="de_item">
+			<div class="de_list">
+				<dl>
+					<dd><img src="img/b2.jpg"/></dd>
+					<dt>
+						<div class="de_li_con">
+							<h2>王师傅|专业</h2>
+							<p><img src="img/xx.png"/></p>
+							<p>专业染烫，洗剪吹</p>
+						</div>
+						<div class="de_li_bj">
+							<span>洗剪吹</span>
+							<p>45元</p>
+						</div>
+					</dt>
+				</dl>
+			</div>
+			<div class="de_list">
+				<dl>
+					<dd><img src="img/b2.jpg"/></dd>
+					<dt>
+						<div class="de_li_con">
+							<h2>王师傅|专业</h2>
+							<p><img src="img/xx.png"/></p>
+							<p>专业染烫，洗剪吹</p>
+						</div>
+						<div class="de_li_bj">
+							<span>洗剪吹</span>
+							<p>45元</p>
+						</div>
+					</dt>
+				</dl>
+			</div>
+			<div class="de_list">
+				<dl>
+					<dd><img src="img/b2.jpg"/></dd>
+					<dt>
+						<div class="de_li_con">
+							<h2>王师傅|专业</h2>
+							<p><img src="img/xx.png"/></p>
+							<p>专业染烫，洗剪吹</p>
+						</div>
+						<div class="de_li_bj">
+							<span>洗剪吹</span>
+							<p>45元</p>
+						</div>
+					</dt>
+				</dl>
+			</div>
+			<div class="de_list">
+				<dl>
+					<dd><img src="img/b2.jpg"/></dd>
+					<dt>
+						<div class="de_li_con">
+							<h2>王师傅|专业</h2>
+							<p><img src="img/xx.png"/></p>
+							<p>专业染烫，洗剪吹</p>
+						</div>
+						<div class="de_li_bj">
+							<span>洗剪吹</span>
+							<p>45元</p>
+						</div>
+					</dt>
+				</dl>
+			</div>
+			<div class="de_list">
+				<dl>
+					<dd><img src="img/b2.jpg"/></dd>
+					<dt>
+						<div class="de_li_con">
+							<h2>王师傅|专业</h2>
+							<p><img src="img/xx.png"/></p>
+							<p>专业染烫，洗剪吹</p>
+						</div>
+						<div class="de_li_bj">
+							<span>洗剪吹</span>
+							<p>45元</p>
+						</div>
+					</dt>
+				</dl>
+			</div>
+			<div class="de_list">
+				<dl>
+					<dd><img src="img/b2.jpg"/></dd>
+					<dt>
+						<div class="de_li_con">
+							<h2>王师傅|专业</h2>
+							<p><img src="img/xx.png"/></p>
+							<p>专业染烫，洗剪吹</p>
+						</div>
+						<div class="de_li_bj">
+							<span>洗剪吹</span>
+							<p>45元</p>
+						</div>
+					</dt>
+				</dl>
+			</div>
+			<div class="de_list">
+				<dl>
+					<dd><img src="img/b2.jpg"/></dd>
+					<dt>
+						<div class="de_li_con">
+							<h2>王师傅|专业</h2>
+							<p><img src="img/xx.png"/></p>
+							<p>专业染烫，洗剪吹</p>
+						</div>
+						<div class="de_li_bj">
+							<span>洗剪吹</span>
+							<p>45元</p>
+						</div>
+					</dt>
+				</dl>
+			</div>
+			<div class="de_list">
+				<dl>
+					<dd><img src="img/b2.jpg"/></dd>
+					<dt>
+						<div class="de_li_con">
+							<h2>王师傅|专业</h2>
+							<p><img src="img/xx.png"/></p>
+							<p>专业染烫，洗剪吹</p>
+						</div>
+						<div class="de_li_bj">
+							<span>洗剪吹</span>
+							<p>45元</p>
+						</div>
+					</dt>
+				</dl>
+			</div>
+			<!--h刷新-->
+			   <div class="loadingbox">
+						<div class="loading"></div>
+			   </div>
+			</div>
+		</article>
+		<div class="menuwrap">
+			<div class="menu">
+				<a href="#">
+					<label>首页</label>
+				</a>
+			</div>
+			<div class="menu xz">
+				<a href="#">
+					<label class="men_co">设计师</label>
+				</a>
+			</div>
+			<div class="menu">
+				<a href="#">
+					<label>活动</label>
+				</a>
+			</div>
+			<div class="menu">
+				<a href="#">
+					<label>关于我们</label>
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
