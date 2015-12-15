@@ -37,7 +37,7 @@
 .in_works{
 	width: 100%;
 	height: auto;
-	margin: 0.4rem auto;
+	margin: 0.6rem auto;
 }
 /*.works_list{
 	border: 1px solid saddlebrown;
@@ -61,4 +61,7 @@
 	font-size: 0.68rem;
 	font-weight: bold;
 	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+	font-family: "微软雅黑";
+	text-align: left;
 }
