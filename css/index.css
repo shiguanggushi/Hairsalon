@@ -67,7 +67,7 @@
 }
 .in_pro{
 	width: 100%;
-	margin: 0.8rem auto;
+	margin: 1.2rem auto;
 }
 .in_pro .pro_dl{
 	float: left;
@@ -80,4 +80,65 @@
 }
 .in_pro .pro_dl dd{
 	margin-top: 0.2rem;
+}
+.in_rec{
+	width: 100%;
+	height: auto;
+}
+.in_rec h2{
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 0.88rem;
+	text-align: left;
+}
+.in_rec dl{
+	width: 100%;
+	height: 4.8rem;
+	margin: 0.4rem auto;
+}
+.in_rec dl dd{
+	width: 30%;
+	height:4.6rem;
+	float: left;
+	border: 1px solid #9E9E9E;
+	position: relative;
+	overflow: hidden;
+}
+.in_rec dl dd img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.in_rec dl dt{
+	width: 62%;
+	height:4.6rem;
+	float: left;
+	margin-left: 0.6rem;
+	position: relative;
+	overflow: hidden;
+}
+.in_rec dl dt h3{
+	color: #000000;
+	font-size: 0.66rem;
+	font-weight: bold;
+}
+.in_rec dl dt p{
+	text-align: justify;
+	font-size: 0.6rem;
+	line-height: 0.8rem;
+}
+.in_rec dl dt ul{
+	margin-top: 0.2rem;
+}
+.in_rec dl dt li{
+	float: left;
+	width: 2.8rem;
+	font-size: 0.66rem;
+	line-height: 1.0rem;
+}
+.in_rec dl dt li img{
+	width: 1.0rem;
+	height: 1.0rem;
+	float: left;
+	margin-right: 0.2rem;
 }
