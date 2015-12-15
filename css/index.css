@@ -81,9 +81,13 @@
 .in_pro .pro_dl dd{
 	margin-top: 0.2rem;
 }
+
 .in_rec{
 	width: 100%;
 	height: auto;
+}
+.rec_list{
+	margin: 0.6rem auto;
 }
 .in_rec h2{
 	font-family: "微软雅黑";
