@@ -174,3 +174,46 @@ h1,h2,h3,h4{
 	font-size: 0.8rem;
 	font-family: "微软雅黑";
 }
+/*
+ * nav
+ */
+.menuwrap {
+	width: 100%;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	z-index: 9000;
+	height: 1.891rem;
+	background-color: #231815;
+	border-top: 1px solid #B5B6B6;
+}
+.menuwrap .menu {
+	width: 25%;
+	height: 1.891rem;
+	float: left;
+	background-position: center 0.2rem;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.menuwrap .menu a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.menuwrap .menu label {
+	display: inline-block;
+	font-size: 0.8rem;
+	margin-top: 0.5rem;
+	font-family: "黑体";
+	color: #fff;
+}
+.menuwrap .xz{
+	background: #FFFFFF;
+}
+.menuwrap .menu .men_co{
+	color:#231815;
+}
+.menuwrap .menu label.selectMenuText {
+	color: #2D6DB6;
+}
