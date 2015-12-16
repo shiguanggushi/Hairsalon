@@ -50,8 +50,12 @@ body{
 	height: auto;
 	float: left;
 }
+.de_li_con h2{
+	color: #000000;
+}
 .de_li_con p{
 	padding: 0.2rem 0;
+	color: #000000;
 }
 .de_li_con p img{
 	width: 4.6rem;

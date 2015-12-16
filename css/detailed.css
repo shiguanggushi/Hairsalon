@@ -1,0 +1,107 @@
+@charset "utf-8";
+.tai_content{
+	width: 100%;
+    box-sizing: border-box;
+    padding: 0 0;
+    overflow: hidden;
+    font-size: 0;
+}
+.tai_conter{
+	margin-top: 1.825rem;
+	margin-bottom: 1.825rem;
+	font-size: 0.6rem;
+	font-family: "宋体";
+}
+.tai_yy{
+	width: 100%;
+	height: 5.20rem;
+	background: #FFFFFF;
+	padding: 0 0.4rem;
+	border-bottom: 0.4rem solid #DBDCDC;
+}
+.tai_yy dl{
+	padding: 0.4rem 0;
+}
+.tai_yy dl dd{
+	float: left;
+	width: 30%;
+	height: 4.2rem;
+	overflow: hidden;
+	border: 0.08rem solid #999999;
+}
+.tai_yy dl dd img{
+	width: 100%;
+	height: 4.2rem;
+}
+.tai_yy dl dt{
+	float: left;
+	width: 62%;
+	height: 4.2rem;
+	margin-left: 0.4rem;
+}
+.tai_yy dl dt h2{
+	margin-top: 0.2rem;
+}
+.tai_xcon{
+	margin-top: 0.2rem;
+}
+.tai_xcon .tai_xcon_le{
+	width: 6.6rem;
+	float: left;
+}
+.tai_xcon_le p{
+	margin: 0.26rem 0;
+}
+.tai_xcon_ri{
+	float: left;
+	width: 3.0rem;
+	text-align: center;
+} 
+.tai_xcon_ri .tai_sub{
+	width: 2.6rem;
+	height: 1.6rem;
+	margin: 0.8rem 0;
+	background: #08C5FF;
+	color: #FFFFFF;
+	border-radius: 0.2rem;
+}
+.tai_jj{
+	width: 100%;
+	height: auto;
+	margin-top: 0.8rem;
+	padding: 0 0.4rem;
+}
+.tai_jj h3{
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 0.8rem;
+}
+.tai_jj p{
+	padding: 0.4rem 1.6rem;
+	line-height: 1.0rem;
+	text-align: justify;
+}
+.tai_zp{
+	width: 100%;
+	height: auto;
+	margin-bottom: 0.2rem;
+	margin-top: 0.8rem;
+	padding: 0 0.4rem;
+}
+.tai_zp h3{
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 0.8rem;
+}
+.tai_zp ul{
+	margin-top: 0.4rem;
+}
+.tai_zp li{
+	float: left;
+	margin-top: 0.4rem;
+	margin-left: 0.48rem;
+}
+.tai_zp li img{
+	width: 3.2rem;
+	height: 4.2rem;
+}
