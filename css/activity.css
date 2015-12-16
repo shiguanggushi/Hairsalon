@@ -1,0 +1,109 @@
+@charset "utf-8";
+.ac_content{
+	width: 100%;
+    box-sizing: border-box;
+    padding: 0 0;
+    overflow: hidden;
+    font-size: 0;
+    background: url(../img/bg2.png) no-repeat;
+    background-size: 100%;
+    height: auto;
+}
+.ac_conter{
+	margin-top: 1.825rem;
+	margin-bottom: 1.825rem;
+	font-size: 0.6rem;
+	font-family: "宋体";
+	padding: 0 0.4rem;
+}
+.ac_ge{
+	width: 100%;
+	height: 16.0rem;
+}
+.ac_ge h2{
+	text-align: center;
+	margin-top: 2.2rem;
+	font-size: 1.4rem;
+	color: #FFF000;
+	font-weight: bold;
+}
+.ac_ge p{
+	margin: 0.6rem auto;
+	font-size: 1.0rem;
+	text-indent:2em ;
+	font-family: "微软雅黑";
+	color: #E50012;
+	text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
+	-webkit-text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
+	-moz-text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
+	*filter: Glow(color=#fff, strength=1);
+}
+.gx{
+	font-size: 1.4rem;
+	color: #2D6DB6;
+}
+.hb{
+	font-size: 1.4rem;
+	color: #08C5FF;
+}
+.ac_list{
+	width: 100%;
+	height: auto;
+}
+.ac_list ul{
+	margin-top: 1.2rem;
+}
+.ac_list ul li{
+	font-size: 0.88rem;
+	line-height: 2.2rem;
+	color: #000000;
+	font-family: "微软雅黑";
+}
+.ac_list ul li span{
+	padding-left: 0.6rem;
+}
+.ac_bm{
+	width: 100%;
+	height: 9.6rem;
+	margin-top: 0.4rem;
+}
+.ac_bm h3{
+	margin-bottom: 0.4rem;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 1.4rem;
+	color: #E50012;
+	text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
+	-webkit-text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
+	-moz-text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
+	*filter: Glow(color=#fff, strength=1);
+}
+.ac_inp{
+   text-align: center;
+}
+.ac_inp p{
+	margin: 0.8rem auto;
+	text-align: center;
+}
+.ac_inp .sj{
+	width: 8.0rem;
+	height: 1.2rem;
+}
+.ac_inp .yzm{
+	width: 3.6rem;
+	height: 1.2rem;
+}
+.ac_inp .hq{
+	background: #DBDCDC;
+	width: 3.8rem;
+	height:1.2rem;
+	margin-left: 0.4rem;
+}
+.tj{
+	width: 3.6rem;
+	height: 1.4rem;
+	background: #08C5FF;
+	color: #FFFFFF;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
