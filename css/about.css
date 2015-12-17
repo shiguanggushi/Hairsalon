@@ -1,0 +1,233 @@
+@charset "utf-8";
+.ab_content{
+	width: 100%;
+    box-sizing: border-box;
+    padding: 0 0;
+    overflow: hidden;
+    font-size: 0;
+}
+.ab_conter{
+	margin-top: 1.825rem;
+	margin-bottom: 1.825rem;
+	font-size: 0.6rem;
+	font-family: "宋体";
+	padding: 0 0.4rem;
+}
+.ab_me{
+	width: 100%;
+	height: auto;
+}
+.ab_me h2{
+	text-align: center;
+	font-size: 0.8rem;
+	margin: 0.6rem 0;
+	font-family: "微软雅黑";
+}
+.ab_me p{
+	line-height: 1.0rem;
+	text-indent: 2em;
+	text-align: justify;
+}
+.ab_jmb{
+	width: 100%;
+	height: auto;
+	margin-top: 1.6rem;
+}
+.ab_jmb h2{
+	text-align: center;
+	font-size: 0.8rem;
+	margin: 0.6rem 0;
+	font-family: "微软雅黑";
+}
+.ab_zx{
+	width: 100%;
+}
+.zx_top{
+	width: 100%;
+	height: 1.6rem;
+	background: #FFF000;
+}
+.zx_top h3{
+	text-align: left;
+	line-height: 1.6rem;
+	font-size: 0.88rem;
+	padding-left: 0.6rem;
+}
+.zx_con{
+	width: 100%;
+	height: auto;
+	background: #FEFEEC;
+}
+.zx_con dl{
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin: 0.4rem 0.2rem;
+}
+.zx_con_dl{
+	border-right:1px dashed #FFF000 ;
+}
+.zx_con dl dd{
+	margin-bottom: 0.4rem;
+	font-weight: bold;
+}
+.zx_con dl dt{
+	line-height: 1.2rem;
+}
+
+.ab_tf{
+	width: 100%;
+}
+.tf_top{
+	width: 100%;
+	height: 1.6rem;
+	background: #71D2EE;
+}
+.tf_top h3{
+	text-align: left;
+	line-height: 1.6rem;
+	font-size: 0.88rem;
+	padding-left: 0.6rem;
+}
+.tf_top .tf_sp{
+	font-size: 0.6rem;
+}
+.tf_con{
+	width: 100%;
+	height: auto;
+	background: #F0FAFC;
+}
+.tf_con dl{
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin: 0.4rem 0.2rem;
+}
+.tf_con_dl{
+	border-right:1px dashed #71D2EE ;
+}
+.tf_con dl dd{
+	margin-bottom: 0.4rem;
+	font-weight: bold;
+}
+.tf_con dl dt{
+	line-height: 1.2rem;
+}
+
+.ab_rf{
+	width: 100%;
+}
+.rf_top{
+	width: 100%;
+	height: 1.6rem;
+	background: #FF6EAD;
+}
+.rf_top h3{
+	text-align: left;
+	line-height: 1.6rem;
+	font-size: 0.88rem;
+	padding-left: 0.6rem;
+}
+.rf_con{
+	width: 100%;
+	height: auto;
+	background: #FFF0F7;
+}
+.rf_con dl{
+	float: left;
+	width: 20%;
+	text-align: center;
+	margin: 0.4rem 0.2rem;
+}
+.rf_con_dl{
+	border-right:1px dashed #FF6EAD ;
+}
+.rf_con dl dd{
+	margin-bottom: 0.4rem;
+	font-weight: bold;
+}
+.rf_con dl dt{
+	line-height: 1.2rem;
+}
+
+.ab_hl{
+	width: 100%;
+}
+.hl_top{
+	width: 100%;
+	height: 1.6rem;
+	background: #FFBD55;
+}
+.hl_top h3{
+	text-align: left;
+	line-height: 1.6rem;
+	font-size: 0.88rem;
+	padding-left: 0.6rem;
+}
+.hl_con{
+	width: 100%;
+	height: auto;
+	background: #FFF8EC;
+}
+.hl_con dl{
+	float: left;
+	width: 20%;
+	text-align: center;
+	margin: 0.4rem 0.2rem;
+}
+.hl_con_dl{
+	border-right:1px dashed #FFBD55 ;
+}
+.hl_con dl dd{
+	margin-bottom: 0.4rem;
+	font-weight: bold;
+}
+.hl_con dl dt{
+	line-height: 1.2rem;
+}
+
+.ab_xs{
+	width: 100%;
+}
+.xs_top{
+	width: 100%;
+	height: 1.6rem;
+	background: #F882F2;
+}
+.xs_top h3{
+	text-align: left;
+	line-height: 1.6rem;
+	font-size: 0.88rem;
+	padding-left: 0.6rem;
+}
+.xs_con{
+	width: 100%;
+	height: auto;
+	background: #FFF3FD;
+}
+.xs_con dl{
+	float: left;
+	width: 20%;
+	text-align: center;
+	margin: 0.4rem 0.2rem;
+}
+.xs_con_dl{
+	border-right:1px dashed #F882F2 ;
+}
+.xs_con dl dd{
+	margin-bottom: 0.4rem;
+	font-weight: bold;
+}
+.xs_con dl dt{
+	line-height: 1.2rem;
+}
+
+
+.ab_sm{
+	margin-top: 0.8rem;
+	margin-bottom: 0.8rem;
+	padding: 0 1.2rem;
+	text-align: justify;
+	font-family: "微软雅黑";
+	line-height: 1.0rem;
+}
